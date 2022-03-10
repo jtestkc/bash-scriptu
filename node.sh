@@ -6,4 +6,5 @@ sudo npm install npm@latest -g -y
 sudo npm install -g create-react-app -y
 sudo create-react-app my-project -y
 cd /home/ubuntu/bash-scriptu/my-project
-npm start
+npm start -y
+-y
