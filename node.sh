@@ -1,7 +1,9 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install git
-git clone 
+sudo apt install git
+git clone https://github.com/jtestkc/bash-scriptu.git
+chmod a+x node.sh
+bash node.sh
 curl -sL https://deb.nodesource.com/setup_14.x | bash -
 sudo apt-get install nodejs -y
 sudo npm install npm@latest -g -y
